@@ -16,7 +16,7 @@ namespace Character_Stats
             {
                 Console.WriteLine($"Health: " + "|" + new string('|', currentHealth) + new string('.', maximumHealth - currentHealth) + "|");
             }
-            if (currentHealth <= maximumHealth)
+            if (currentEnergy <= maximumEnergy)
             {
                 Console.WriteLine($"Energy: " + "|" + new string('|', currentEnergy) + new string('.', maximumEnergy - currentEnergy) + "|");
             }
